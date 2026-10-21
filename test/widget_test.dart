@@ -15,8 +15,8 @@ import 'package:obtainium/providers/settings_provider.dart';
 import 'package:provider/provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-// FR// Seules les frontières natives sont simulées ; le widget racine et la navigation restent réels.
-// EN// Only native boundaries are faked; the root widget and navigation remain real.
+// FR// État des applis et services natifs simulés ; widgets, navigation et réglages réels.
+// EN// App state and native services are faked; widgets, navigation and settings remain real.
 class TestAppsProvider extends ChangeNotifier implements AppsProvider {
   @override
   final Map<String, AppInMemory> apps = {};
